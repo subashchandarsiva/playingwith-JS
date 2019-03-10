@@ -2,13 +2,22 @@
   "name": "playingwithjsnnode",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subashchandarsiva/playingwith-JS.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subashchandarsiva/playingwith-JS/issues"
+  },
+  "homepage": "https://github.com/subashchandarsiva/playingwith-JS#readme",
   "dependencies": {
-    "mocha": "^6.0.2"
+    "express": "^4.16.4",
+    "joi": "^14.3.1"
   }
 }
