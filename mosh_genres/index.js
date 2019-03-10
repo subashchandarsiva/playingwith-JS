@@ -69,8 +69,10 @@ app.delete('/:id',(req,res)=>{
     res.send(genres);
 })
 
-app.listen(3000,()=>{
-    console.log("listening in 3000")
+
+const port = process.env.PORT || 3000;
+app.listen(port,()=>{
+    console.log(`listening in ${port}`)
 })
 
 
